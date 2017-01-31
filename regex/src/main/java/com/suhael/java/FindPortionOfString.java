@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FindPortionOfString {
-
     public String returnMatchingString(String input) {
         Pattern pattern = Pattern.compile("\\(Internal Code:(.+?)\\)");
         Matcher matcher = pattern.matcher(input);
